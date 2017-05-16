@@ -1,0 +1,27 @@
+--------------------- ### Model Units ### ---------------------
+
+The model calculates kgSOC per square meter of soil.
+
+---------------------------------------------------------------
+Units in model calculations and in input data partially differ.
+
+The model units are:
+mass: kilograms (kg)
+time: hour (h)
+distance: meters (m)
+pressure: kilo pascals (kPa)
+energy: kilo Joules (kJ)
+temperature: Kelvin (K)
+
+Input data is given as:
+moisture:  fraction of volume (m3 m-3)
+temperature: Kelvin (K)
+time: hours (h)
+litter input: gC m-2 h-1
+
+Input litter data is then converted to kg.
+---------------------------------------------------------------
+
+In the optimization code, model output is converted to 
+gC_respired kg_Soil-1 for comparison with obserrvations.
+

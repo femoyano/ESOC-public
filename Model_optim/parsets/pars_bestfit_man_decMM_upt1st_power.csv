@@ -1,0 +1,30 @@
+par,value,unit
+D_d0,1.4,h-1
+E_e,10,kJ
+E_K,90,kJ
+E_m,10,kJ
+E_r,90,kJ
+E_V,90,kJ
+f_CD_bf,0.000069,kg kg-1
+f_CD_mz,0.000088,kg kg-1
+f_CE_bf,0.00039,kg kg-1
+f_CE_mz,0.00058,kg kg-1
+f_CM_bf,0.041,kg kg-1
+f_CM_mz,0.043,kg kg-1
+f_gr,0.6,kg kg-1
+f_mp,1,kg kg-1
+f_ue,0.025,kg kg-1
+K_D_ref,60,kgC m-3
+p1,2.75,
+p2,1,
+pd,2700,kgC m-3
+psi_fc,33,kPa
+psi_Rth,15000,kPa
+R,0.008314,kJ mol-1 K-1
+r_ed_ref,0.0002,h-1
+r_md_ref,0.002,h-1
+r_mr_ref,0.00004,h-1
+T_ref,293.15,K
+V_D_bf,0.46,h-1
+V_D_mz,0.3,h-1
+V_U_ref,0.09,h-1

@@ -1,0 +1,10 @@
+Experiment 1
+
+Here I explore the changes in soil carbon as a function of changes in the annual frequency of pecipitation. 
+This is done for 2 levels of total yearly precipitation and for 3 temperatures  average (5, 15, 25).
+Temperature fluctuates daily with an amplitude of 2 degrees.
+Soil moisture is calculated from precipitation input and evaporation. 
+Evaporation is calculated from penmann-monteith giving potential evapotranspiration (Ep) and a linear function that relates soil water potential with Ep to obtain actual evapotranspiration (Ea).
+Precipitation input that exceeds field capacity (optionally pore space) is lost as percolated water. A flux of C_D with percolation can be optionally calculated.
+
+Steady state is obtained first calculating it analitically and then running a transient simulation for 50 years. This is used as the initial state for the transient run.

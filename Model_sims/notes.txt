@@ -1,0 +1,3 @@
+- To run simulations for different experiments/scenarios, spinup and run files from the Exp folders need to be copied to the current model folder adn run from there.
+
+- Note that parallel processing with foreach works in Linux but might not work in Windows (using 'do' instead of 'dopar' seems to work, but will take much longer)
